@@ -1,0 +1,101 @@
+body{
+    overflow-y: hidden;
+    background-image : url("../img/fondo.png");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    
+}
+
+#contenido{
+    position: absolute;
+    top : 90%;
+    left : 50%;
+    height: 100vh;
+    width: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#login_form{
+    
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-family: monospace;
+    text-align: center;
+    font-size: 36px;
+    color : #fff;
+    background-color: #572364;
+}
+
+input{
+    display : block;
+    padding: 32px;
+    border-radius: 48px;
+    width: 320px;
+    font-size: 16px;
+}
+
+#login{
+    position: relative;
+    top : 16px;
+    width: 384px;
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#login:hover{
+    color : #fff;
+    background-color: #572364;
+    transition: 0.5s;
+   
+    box-shadow: 0 80px 256px #000000;
+}
+
+input::placeholder{
+    font-size: 16px;
+    font-family: monospace;
+    font-style: italic;
+}
+
+#label_password{
+    font-size: 24px;
+    position: relative;
+    left : 140px;
+    background-color: #572364;
+    color : #fff;
+    width: 512px;
+    border-radius: 8px;
+    
+}
+
+#label_codigo{
+    font-size: 24px;
+    position: relative;
+    left : 156px;
+    background-color: #572364;
+    color : #fff;
+    width: 512px;
+    border-radius: 8px;
+    
+}
+
+p{
+    position: absolute;
+    left : 18%;
+    top : -27%;
+    font-size: 16px;
+    font-family: monospace;
+    font-style: italic;
+    color : rgb(255, 255, 255);
+    text-align: center;
+    background-color: #572364;
+    min-width: 512px;
+    max-width: 512px;
+    
+}

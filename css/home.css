@@ -1,0 +1,164 @@
+#contenedor{
+    position: absolute;
+    left : 55%;
+    
+    transform: translate(-50%, 0%);
+    top : 20px;
+    height: 700px;
+    width: 60%;
+    margin-bottom: 16px;
+
+    border-radius: 32px;
+    border : 2px black solid;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.categorias{
+    border-radius: 9999px;
+    height: 124px;
+    width: 124px;
+}
+
+#categorias_div{
+    position: relative;
+    top : 80px;
+    left : 0%;
+    text-align: center;
+    transform: translate(0%, -50%);
+    font-size: 18px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+#titulo_div{
+    position: relative;
+    top : 32px;
+    left : 0%;
+    text-align: center;
+    transform: translate(0%, -50%);
+    font-size: 18px;
+    font-family: monospace;
+}
+
+
+#titulo_contenedor{
+    font-size: 48px;
+    color : #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #572364;
+}
+
+#parrafo_contenedor{
+    color : #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #a645be;
+}
+
+#apartados{
+    color : #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #c78ad6;
+}
+
+#modal{
+    height: 480px;
+    width: 640px;
+    border : none;
+    text-align: center;
+}
+
+#titulo_modal{
+    font-size: 48px;
+    color : #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #572364;
+}
+
+#texto_autor_modal, #texto_resumen_modal, #texto_fecha_modal{
+    color : #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #a645be;
+}
+
+#input_prestamo{
+    border-radius: 128px;
+    width: 256px;
+    font-size: 18px;
+    height: 64px;
+    font-family: monospace;
+    cursor: pointer;
+    background-color: greenyellow;
+    color: #000000;
+    font-weight: 600;
+}
+
+#atras_modal{
+    position: relative;
+    top : 16px;
+    border-radius: 128px;
+    width: 256px;
+    font-size: 18px;
+    height: 64px;
+    font-family: monospace;
+    cursor: pointer;
+    background-color: crimson;
+    color: #fff;
+    font-weight: 600;
+}
+
+#encabezado{
+    position: relative;
+    left: 32px;
+    top : 64px;
+    font-family: monospace;
+    font-size: 24px;
+    min-width: 308px;
+    max-width: 308px;
+    background-color: #572364;
+    color : #fff;
+}
+
+.cerrarsesion{
+    position: relative;
+    left : 88px;
+    top : 64px;
+    border-radius: 256px;
+    font-size: 24px;
+    
+    color: #000;
+    font-family: monospace;
+}
+
+.cerrarsesion a{
+    text-decoration: none;
+    color: #000;
+}
+
+#boton_realizar_prestamo, #boton_consultar_prestamo{
+    height: 256px;
+    width: 256px;
+    position: relative;
+    left : 48px;
+    top : 80px;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+#crear_pdf{
+    height: 64px;
+    border-radius: 24px;
+    text-align: center;
+    position: fixed;
+    top : 600px;
+    left : 20%;
+    font-size: 18px;
+    font-family: monospace;
+}
